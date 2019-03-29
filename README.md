@@ -71,12 +71,15 @@ build.sh
 ## Other
 
 A few attributes are not styled by the theme and must be set manually (<kbd>Settings</kbd> > <kbd>Editor</kbd> > <kbd>Color Scheme</kbd>):   
-> <kbd>General</kbd>   
-&nbsp;&nbsp; > <kbd>Code</kbd> > <kbd>Line number on caret row</kbd> > <kbd>Foreground</kbd> → `a9917e`  
-&nbsp;&nbsp; > <kbd>Hyperlinks</kbd> > <kbd>Inactive</kbd> > <kbd>Effects</kbd> → `d8c0b6`  
+<kbd>General</kbd>   
+&nbsp;&nbsp;&nbsp;&nbsp; > <kbd>Code</kbd> > <kbd>Line number on caret row</kbd> > <kbd>Foreground</kbd> → `a9917e`  
+&nbsp;&nbsp;&nbsp;&nbsp; > <kbd>Hyperlinks</kbd> > <kbd>Inactive</kbd> > <kbd>Effects</kbd> → `d8c0b6`  
 
-> <kbd>Language Defaults</kbd>  
-&nbsp;&nbsp; > <kbd>Inline parameter hints</kbd> > <kbd>Highlighted</kbd> > <kbd>Foreground</kbd> → `796a58`  
-&nbsp;&nbsp; > <kbd>Inline parameter hints</kbd> > <kbd>Highlighted</kbd> > <kbd>Background</kbd> → `443533`  
-&nbsp;&nbsp; > <kbd>Inline parameter hints</kbd> > <kbd>Current</kbd> > <kbd>Foreground</kbd> → `9d8275`  
-&nbsp;&nbsp; > <kbd>Inline parameter hints</kbd> > <kbd>Current</kbd> > <kbd>Background</kbd> → `6a5a4e`
+<kbd>Language Defaults</kbd>  
+&nbsp;&nbsp;&nbsp;&nbsp; > <kbd>Inline parameter hints</kbd>  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; > <kbd>Highlighted</kbd>  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; > <kbd>Foreground</kbd> → `796a58`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; > <kbd>Background</kbd> → `443533`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; > <kbd>Current</kbd>  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; > <kbd>Foreground</kbd> → `9d8275`  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; > <kbd>Background</kbd> → `6a5a4e`
