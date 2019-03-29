@@ -1,14 +1,11 @@
-:: Copyright (c) 2016-present Arctic Ice Studio <development@arcticicestudio.com>
-:: Copyright (c) 2016-present Sven Greb <code@svengreb.de>
-
-:: Project:    Nord JetBrains Editor
-:: Repository: https://github.com/arcticicestudio/nord-jetbrains-editor
+:: Project:    JetBrains Color Scheme
+:: Repository: https://github.com/lippenstift/jetbrains-color-scheme
 :: License:    MIT
 
 @ECHO OFF
-SET ICLS_FILE_NAME="nord-jetbrains-editor.icls"
+SET ICLS_FILE_NAME="jetbrains-color-scheme.icls"
 SET INTELLIJ_EXPORT_FLAG_FILE_NAME="IntelliJ IDEA Global Settings"
-SET VERSION="0.3.0"
+SET VERSION="0.1.0"
 
 IF NOT EXIST src\%ICLS_FILE_NAME% (
   ECHO Source file not found: src\$ICLS_FILE_NAME
@@ -26,7 +23,7 @@ IF EXIST build ECHO Cleaning previous builds
 MKDIR build\colors
 COPY /Y NUL build\%INTELLIJ_EXPORT_FLAG_FILE_NAME% >nul 2>&1
 COPY src\%ICLS_FILE_NAME% build\colors >nul 2>&1
-jar cMf build\nord-jetbrains-editor-%VERSION%.jar -C build .
+jar cMf build\jetbrains-color-scheme-%VERSION%.jar -C build .
 
 IF %ERRORLEVEL% EQU 0 (
   DEL build\%INTELLIJ_EXPORT_FLAG_FILE_NAME%

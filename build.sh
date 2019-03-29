@@ -1,13 +1,10 @@
 #!/usr/bin/env bash
-# Copyright (c) 2016-present Arctic Ice Studio <development@arcticicestudio.com>
-# Copyright (c) 2016-present Sven Greb <code@svengreb.de>
-
-# Project:    Nord JetBrains Editor
-# Repository: https://github.com/arcticicestudio/nord-jetbrains-editor
+# Project:    JetBrains Color Scheme
+# Repository: https://github.com/lippenstift/jetbrains-color-scheme
 # License:    MIT
 
 JAR=`which jar`
-ICLS_FILE_NAME=nord-jetbrains-editor.icls
+ICLS_FILE_NAME=jetbrains-color-scheme.icls
 VERSION=0.3.0
 
 if [ -z "$JAR" ]; then
@@ -28,7 +25,7 @@ fi
 mkdir -p build/colors
 touch "build/IntelliJ IDEA Global Settings"
 cp src/$ICLS_FILE_NAME build/colors
-`$JAR cMf build/nord-jetbrains-editor-${VERSION}.jar -C build .`
+`$JAR cMf build/jetbrains-color-scheme-${VERSION}.jar -C build .`
 
 if [ $? -eq 0 ]; then
   rm -r build/colors
