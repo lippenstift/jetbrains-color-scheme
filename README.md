@@ -28,15 +28,16 @@ the welcome screen.
 #### Manual
 
 Download the [latest version](https://github.com/lippenstift/jetbrains-color-scheme/releases/latest) of the
-`jetbrains-color-scheme.icls` file. Copy it to the `colors` directory located inside of your IntelliJ IDEA `config`
-directory (`$IDEA_HOME/colors`).
+`jetbrains-color-scheme.icls` file. Copy it to the `colors` directory located inside of your IDE `config`
+directory (`$IDE_HOME/colors`).
 
-> The official [IntelliJ IDEA documentation](https://www.jetbrains.com/help/idea/project-and-ide-settings.html#d1733494e174) contains more information about directory locations and IDE settings.
+The official [IDE documentation](https://www.jetbrains.com/help/idea/project-and-ide-settings.html#d1733494e174)
+contains more information about directory locations and IDE settings.
 
 ### Activation
 
-Open <kbd>Settings</kbd> > <kbd>Editor</kbd> > <kbd>Colors & Fonts</kbd>, select `Nord` from the *Scheme* drop-down menu
-and <kbd>Apply</kbd> the change.
+Open <kbd>Settings</kbd> > <kbd>Editor</kbd> > <kbd>Colors & Fonts</kbd>, select `Nord` from the <kbd>Scheme</kbd>
+drop-down menu and <kbd>Apply</kbd> the change.
 
 
 ### Building From Source
