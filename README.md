@@ -1,16 +1,24 @@
+<h1 align="center">JetBrains Color Scheme</h1>
+
 <p align="center">A warm and calm JetBrains editor color scheme.</p>
 
 <p align="center">
-  Forked from the
-  <a href="https://github.com/arcticicestudio/nord-jetbrains-editor">Nord JetBrains Editor</a>
-  theme.
-  <br>
-  Based on the <a href="https://github.com/arcticicestudio/lumio">Lumio</a> color palette.
+  <a href="https://github.com/arcticicestudio/lumio">
+    <img src="https://img.shields.io/badge/color_palette-Lumio-9d8275.svg?style=flat-square" />
+  </a>
+  &nbsp;
+  <a href="https://github.com/arcticicestudio/nord-jetbrains-editor">
+    <img src="https://img.shields.io/badge/fork_of-Nord_JetBrains_Editor-958e6f.svg?style=flat-square" />
+  </a>
+  &nbsp;
+  <a href="https://github.com/tonsky/FiraCode">
+    <img src="https://img.shields.io/badge/font-Fira_Code-7e625e.svg?style=flat-square" />
+  </a>
 </p>
 
 ---
 
-<p align="center"><img src="https://raw.githubusercontent.com/lippenstift/jetbrains-color-scheme/develop/src/assets/scrot-top.png"/><br><blockquote>Minimap provided by <a href="https://plugins.jetbrains.com/plugin/7275?p=idea">CodeGlance</a>.<br>Font: <a href="https://adobe-fonts.github.io/source-code-pro">Source Code Pro</a> 20px</blockquote></p>
+<p align="center"><img src="https://raw.githubusercontent.com/lippenstift/jetbrains-color-scheme/develop/src/assets/scrot-top.png"/><br></p>
 
 * [Installation](#installation)
   * [JAR Import](#jar-import)
