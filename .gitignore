@@ -7,3 +7,9 @@
 # + Project Structure +
 # +-------------------+
 build
+
+
+# +-----------+
+# + JetBrains +
+# +-----------+
+.idea
