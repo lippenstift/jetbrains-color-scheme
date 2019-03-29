@@ -16,9 +16,9 @@
   </a>
 </p>
 
----
-
 <p align="center"><img src="https://raw.githubusercontent.com/lippenstift/jetbrains-color-scheme/develop/src/assets/scrot-top.png"/><br></p>
+
+---
 
 * [Installation](#installation)
   * [JAR Import](#jar-import)
