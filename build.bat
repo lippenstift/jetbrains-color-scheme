@@ -5,7 +5,7 @@
 @ECHO OFF
 SET ICLS_FILE_NAME="jetbrains-color-scheme.icls"
 SET INTELLIJ_EXPORT_FLAG_FILE_NAME="IntelliJ IDEA Global Settings"
-SET VERSION="0.1.0"
+SET VERSION="l0.1.0"
 
 IF NOT EXIST src\%ICLS_FILE_NAME% (
   ECHO Source file not found: src\$ICLS_FILE_NAME
