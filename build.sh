@@ -5,7 +5,7 @@
 
 JAR=`which jar`
 ICLS_FILE_NAME=jetbrains-color-scheme.icls
-VERSION=l0.1.0
+VERSION=1.0.0
 
 if [ -z "$JAR" ]; then
   echo "Required tools are missing or not available on the path: jar"

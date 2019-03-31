@@ -1,6 +1,6 @@
 <!--
 Project:    JetBrains Color Scheme
-Version:    l0.1.0
+Version:    1.0.0
 Repository: https://github.com/lippenstift/jetbrains-color-scheme
 License:    MIT
 References:
@@ -8,7 +8,7 @@ References:
   https://www.jetbrains.com/help/idea/2016.2/project-and-ide-settings.html
 -->
 
-<scheme name="Lumio" version="l0.1.0" parent_scheme="Darcula">
+<scheme name="Lumio" version="1" parent_scheme="Darcula">
   <option name="FONT_SCALE" value="1.0"/>
   <option name="LINE_SPACING" value="1.0"/>
   <option name="EDITOR_FONT_SIZE" value="15"/>
